@@ -90,6 +90,7 @@ nav ul li:hover {
   background-color: var(--page-question);
   color: var(--page-background);
   cursor: pointer;
+  display: flex;
 }
 
 .kategorie-odpoved {
@@ -119,5 +120,21 @@ footer {
 }
 
 footer p {
+  margin: auto;
+}
+
+.otazka-nadpis {
+  width: 90%;
+}
+
+.sipka {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-sipka {
+  width: 25px;
   margin: auto;
 }
